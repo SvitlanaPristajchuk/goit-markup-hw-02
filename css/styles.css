@@ -1,17 +1,33 @@
+/*===========HEADER=========*/
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font: weight 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+
 .navigation-list-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
-}
-.navigation-list-link-other {
   color: #212121;
 }
 .contact-email {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -20,7 +36,6 @@
   color: #2196f3;
 }
 .contact-tel {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -31,3 +46,130 @@
 .contact {
   font-style: normal;
 }
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--accent-color);
+}
+
+/*========== END-HEADER========*/
+
+/*============HERO============*/
+.modal-btn {
+  font: weight 700;
+  font-size: 16px;
+  line-height: 1.875;
+
+  /*display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;*/
+
+  /*color: #ffffff;*/
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+
+  /*text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;*/
+
+  /*color: #ffffff */
+}
+.hero-black-section {
+  background: #2f303a;
+  /*============END-HERO============*/
+}
+/*===========Details=========*/
+.priorities-list-item-decription {
+  font: weight 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.priorities-list-item-title {
+  font: weight 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.priorities-list-item {
+}
+.priorities-list {
+}
+.details {
+}
+/*===========END-Details=========*/
+
+/*=======what-are-we-doing-pictures==*/
+/*=======END-what-are-we-doing-pictures==*/
+
+/*=========our-team========*/
+.professions {
+  font: weight 400;
+  font-size: 16px;
+  line-height: 1.186;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.workers-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.186;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.list-pictures-work-item {
+}
+.list-pictures-workers {
+}
+.title-second {
+  font: weight 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+/*=========End-our-team========*/
+
+/*========contacts========*/
+.contacts {
+  background: #2f303a;
+}
+.contact-adress {
+  font: weight 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.contact-email-footer {
+  font: weight 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-tel-footer {
+  font: weight 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+/*===========end-contacts=======*/
