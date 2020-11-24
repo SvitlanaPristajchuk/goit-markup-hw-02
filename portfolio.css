@@ -1,4 +1,4 @@
-/*===========HEADER=========*/
+/*==========header=========*/
 .logo {
   font-family: var(--secondary-font);
   font-style: normal;
@@ -65,7 +65,7 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: #757575;
 }
 .contact-tel {
   font-weight: 500;
@@ -82,100 +82,40 @@ body {
 .navigation-list-link:focus {
   color: var(--accent-color);
 }
-
-/*========== END-HEADER========*/
-
-/*============HERO============*/
+/*==========end-header=========*/
+/*============main-section===============*/
 .modal-btn {
-  font: weight 700;
-  font-size: 16px;
-  line-height: 1.875;
-
-  /*display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;*/
-
-  /*color: #ffffff;*/
+  font-style: normal;
 }
-.main-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
-
-  /*text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;*/
-
-  color: #ffffff;
-}
-.hero-black-section {
-  background: #2f303a;
-  /*============END-HERO============*/
-}
-/*===========Details=========*/
-.priorities-list-item-decription {
-  font: weight 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.priorities-list-item-title {
-  font: weight 700;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #212121;
-}
-.priorities-list-item {
-}
-.priorities-list {
-}
-.details {
-}
-/*===========END-Details=========*/
-
-/*=======what-are-we-doing-pictures==*/
-/*=======END-what-are-we-doing-pictures==*/
-
-/*=========our-team========*/
-.professions {
-  font: weight 400;
-  font-size: 16px;
-  line-height: 1.186;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-.workers-names {
+.modal-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.186;
+  line-height: 1.625;
+
   text-align: center;
   letter-spacing: 0.03em;
+}
+.list {
+  font-style: normal;
+}
+.subtitle {
+  font: weight 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
 
-  color: #212121;
+  color: #757575;
 }
-
-.list-pictures-work-item {
-}
-.list-pictures-workers {
-}
-.title-second {
+.caption {
   font: weight 700;
-  font-size: 36px;
-  line-height: 1.167;
-  text-align: center;
-  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 
   color: #212121;
 }
-/*=========End-our-team========*/
+
+/*============end-main-section===============*/
 
 /*========contacts========*/
 .contacts {
