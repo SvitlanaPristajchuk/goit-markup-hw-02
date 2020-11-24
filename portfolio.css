@@ -95,7 +95,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.list {
+
+.modal-btn:hover,
+.modal-btn:focus {
+  color: var(--accent-color);
+}
+
+.modal-btn .list {
   font-style: normal;
 }
 .subtitle {
@@ -113,6 +119,9 @@ body {
   letter-spacing: 0.06em;
 
   color: #212121;
+}
+li {
+  list-style-type: none;
 }
 
 /*============end-main-section===============*/
