@@ -40,6 +40,9 @@
   color: var(--accent-color-logo);
 }
 
+a {
+  text-decoration: none;
+}
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -58,14 +61,20 @@ body {
 
   color: #212121;
 }
-
-.contact-email {
+.navigation-list-link-navi {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: #212121;
+}
+.contact-email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 .contact-tel {
   font-weight: 500;
@@ -78,8 +87,12 @@ body {
 .contact {
   font-style: normal;
 }
-.navigation-list-link:hover,
-.navigation-list-link:focus {
+.navigation-list-link-navi:hover,
+.navigation-list-link-navi:focus {
+  color: var(--accent-color);
+}
+.contact-email:hover,
+.contact-email:focus {
   color: var(--accent-color);
 }
 
@@ -93,11 +106,10 @@ li {
   font: weight 700;
   font-size: 16px;
   line-height: 1.875;
-
-  /*display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;*/
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 
   /*color: #ffffff;*/
 }
@@ -105,10 +117,9 @@ letter-spacing: 0.06em;*/
   font-weight: 900;
   font-size: 44px;
   line-height: 1.364;
-
-  /*text-align: center;
+  text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;*/
+  text-transform: uppercase;
 
   color: #ffffff;
 }
