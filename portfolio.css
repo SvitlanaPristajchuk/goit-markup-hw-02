@@ -61,14 +61,6 @@ body {
 
   color: #212121;
 }
-.navigation-list-link-navi {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
 .contact-email {
   font-weight: 500;
   font-size: 14px;
@@ -88,8 +80,13 @@ body {
 .contact {
   font-style: normal;
 }
-.navigation-list-link-navi:hover,
-.navigation-list-link-navi:focus {
+.contact-email:hover,
+.contact-email:focus {
+  color: var(--accent-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
   color: var(--accent-color);
 }
 /*==========end-header=========*/
@@ -105,20 +102,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.modal-btn-navi {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  /*color: #FFFFFF;*/
-}
-
-.modal-btn-navi:hover,
-.modal-btn-navi:focus {
-  color: var(--accent-color);
+.modal-btn:hover,
+.modal-btn:focus {
+  color: var(--accent-color-logo);
+  background: var(--accent-color);
 }
 
 .modal-btn .list {

@@ -61,14 +61,6 @@ body {
 
   color: #212121;
 }
-.navigation-list-link-navi {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
 .contact-email {
   font-weight: 500;
   font-size: 14px;
@@ -87,8 +79,8 @@ body {
 .contact {
   font-style: normal;
 }
-.navigation-list-link-navi:hover,
-.navigation-list-link-navi:focus {
+.navigation-list-link:hover,
+.navigation-list-link:focus {
   color: var(--accent-color);
 }
 .contact-email:hover,
@@ -102,6 +94,12 @@ li {
 /*========== END-HEADER========*/
 
 /*============HERO============*/
+.modal-btn:hover,
+.modal-btn:focus {
+  color: var(--accent-color-logo);
+  background-color: var(--accent-color);
+}
+
 .modal-btn {
   font: weight 700;
   font-size: 16px;
@@ -111,7 +109,7 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
 
-  /*color: #ffffff;*/
+  *color: #ffffff;*
 }
 .main-title {
   font-weight: 900;
