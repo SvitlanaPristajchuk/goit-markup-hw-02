@@ -61,15 +61,7 @@ body {
 
   color: #212121;
 }
-.contact-email {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
-.contact-tel {
+.contact-email-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -80,8 +72,8 @@ body {
 .contact {
   font-style: normal;
 }
-.contact-email:hover,
-.contact-email:focus {
+.contact-email-tel:hover,
+.contact-email-tel:focus {
   color: var(--accent-color);
 }
 
